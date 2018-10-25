@@ -8,13 +8,13 @@ multibyte data read.
 ```
 sudo ./i2cread <i2c-bus> <chip-address> <register-sub-address> <number>  
 ```
- <number> is mutibyte data length to read.  
+ "<number>" is mutibyte data length to read.  
   
 multibyte data write.   
 ```
 sudo ./i2cwrite <i2c-bus> <chip-address> <register-sub-address> <data> <data> <data> <data>... 
 ```
- <data>... is multibyte data to write.   
+  "<data>"... is multibyte data to write.   
   
 Maximum length to read/write is defined as MAX_NUM in the source. 
 
